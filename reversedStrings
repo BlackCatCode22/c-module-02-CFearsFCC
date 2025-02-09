@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+#include <algorithm>
+
+int main() 
+
+{
+   std::string name;
+   
+    std::cout << "Please enter your first name: " << std::endl;
+    
+    std::cin >> name;
+    
+    std::cout << "The name you entered is: " << name << ". Hello, " << name << std::endl;
+    
+    std::reverse(name.begin(), name.end());
+    
+    std::cout << "Your name backwards is: " <<  name << std::endl;
+                          
+    
+    return 0;
+}
+
